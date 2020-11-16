@@ -1,0 +1,79 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  
+}
+
+
+body{
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-image: url("./imagenes/tennis.jpg"); /* Darko Nesic */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:80%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2), 0 1px 4px rgba(0,0,0,0.4);
+  margin: 50px;
+  padding:25px;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.title{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 15px;
+  font-size:15px;
+}
+
+.players{
+  width: 100%;
+}
+
+.player{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  margin:10px 0px;
+  font-size:25px;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.player:hover{
+  transform: scale(1.02)
+}
+
+.red{
+  border: 2px solid red;
+  background-color: rgb(255,0,0, 0.1)
+}
+
+.green{
+  border: 2px solid green;
+  background-color: rgba(0, 255, 0, 0.1)
+}
+
+
+
+#test{
+  height: 300px;
+  width: 300px;
+  border-radius: 5%;
+  background-color: black;
+}
+
+
+
+
+
